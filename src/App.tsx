@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Sparkles, Star, Sun, MessageCircle, Clock, Wallet, BookOpen } from 'lucide-react';
+import { Chat } from './components/Chat';
 
 function App() {
   return (
@@ -12,6 +13,17 @@ function App() {
           Agende sua Consulta
         </button>
       </header>
+
+      {/* Chat Section */}
+      <section className="container mx-auto px-4 py-16">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Converse com Juliette</h2>
+          <p className="text-center text-gray-600 mb-8">
+            Experimente uma consulta inicial gratuita com nossa IA assistente, treinada com a expertise de Juliette Psicose
+          </p>
+          <Chat />
+        </div>
+      </section>
 
       {/* Serviços */}
       <section className="container mx-auto px-4 py-16">
