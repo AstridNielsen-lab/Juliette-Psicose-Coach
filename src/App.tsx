@@ -134,31 +134,7 @@ function App() {
               <p className="font-mono text-rose-600 font-semibold">juliettepsicose@gmail.com</p>
             </div>
           </div>
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Seu Nome"
-              className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-rose-500 focus:border-transparent"
-            />
-            <input
-              type="email"
-              placeholder="Seu Email"
-              className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-rose-500 focus:border-transparent"
-            />
-            <textarea
-              placeholder="Sua Mensagem"
-              rows={4}
-              className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-rose-500 focus:border-transparent"
-            ></textarea>
-            <a 
-              href="https://character.ai/chat/YKvqt3dFKMXPo-Lefn5nak6_UPMSt9uHd6AVEdLPWGs"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full bg-rose-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-rose-700 transition-colors"
-            >
-              Enviar Mensagem
-            </a>
-          </form>
+          
         </div>
       </section>
     </div>
