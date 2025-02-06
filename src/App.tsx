@@ -15,7 +15,7 @@ function App() {
           rel="noopener noreferrer" 
           className="inline-block bg-rose-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-rose-700 transition-colors"
         >
-          Agende sua Consulta
+          Consulta por telefone
         </a>
       </header>
 
