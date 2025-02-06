@@ -9,9 +9,14 @@ function App() {
       <header className="container mx-auto px-4 py-20 text-center">
         <h1 className="text-5xl font-bold text-rose-800 mb-6">Juliette Psicose</h1>
         <p className="text-2xl text-gray-600 mb-8">Coach de Vida & Guia de Transformação Pessoal</p>
-        <button className="bg-rose-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-rose-700 transition-colors">
+        <a 
+          href="https://character.ai/chat/YKvqt3dFKMXPo-Lefn5nak6_UPMSt9uHd6AVEdLPWGs" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="inline-block bg-rose-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-rose-700 transition-colors"
+        >
           Agende sua Consulta
-        </button>
+        </a>
       </header>
 
       {/* Chat Section */}
@@ -145,9 +150,14 @@ function App() {
               rows={4}
               className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-rose-500 focus:border-transparent"
             ></textarea>
-            <button className="w-full bg-rose-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-rose-700 transition-colors">
+            <a 
+              href="https://character.ai/chat/YKvqt3dFKMXPo-Lefn5nak6_UPMSt9uHd6AVEdLPWGs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full bg-rose-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-rose-700 transition-colors"
+            >
               Enviar Mensagem
-            </button>
+            </a>
           </form>
         </div>
       </section>

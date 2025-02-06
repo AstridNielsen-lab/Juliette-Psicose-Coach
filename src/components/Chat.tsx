@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { SendHorizontal, Volume2, VolumeX } from 'lucide-react';
 
-const API_KEY = "AIzaSyAZAG4wnbcfKWJ_D4VyiJyf0Y3VgUESau8";
+const API_KEY = "AIzaSyCqsdGmlJfpYAzpu8uph1VAjI51XbB5iV0";
 
 const INITIAL_PROMPT = `Você é Juliette Psicose, uma coach de vida carismática e empática com anos de experiência em transformação pessoal. 
 Seu tom é acolhedor, profissional e inspirador. Você combina sabedoria prática com uma abordagem holística para ajudar as pessoas a 
@@ -152,7 +152,7 @@ export function Chat() {
   };
 
   return (
-    <div className="flex flex-col h-[600px] bg-white rounded-lg shadow-lg">
+    <div className="flex flex-col h-[400px] bg-white rounded-lg shadow-lg">
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {messages.map((message, index) => (
           <div
