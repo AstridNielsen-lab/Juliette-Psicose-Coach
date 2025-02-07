@@ -87,7 +87,7 @@ function App() {
                 </li>
                 <li className="flex items-center">
                   <Wallet className="w-6 h-6 text-rose-600 mr-3" />
-                  <span>Investimento: R$ 50 por sessão</span>
+                  <span>Investimento: R$ 10 por sessão</span>
                 </li>
                 <li className="flex items-start">
                   <MessageCircle className="w-6 h-6 text-rose-600 mr-3 flex-shrink-0 mt-1" />
