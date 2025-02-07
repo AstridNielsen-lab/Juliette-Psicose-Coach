@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { SendHorizontal, Volume2, VolumeX } from 'lucide-react';
 
-const API_KEY = "AIzaSyAJv6kZer9_eExEOnFes3VDc5jhaUJJXu0";
+const API_KEY = "AIzaSyDNSDXAocB4YPm4kY6v9L9C9OtJkQ1y-Uk";
 
 const INITIAL_PROMPT = `Você é Juliette Psicose, uma coach de vida carismática e empática com anos de experiência em transformação pessoal. 
 Seu tom é acolhedor, profissional e inspirador. Você combina sabedoria prática com uma abordagem holística para ajudar as pessoas a 
